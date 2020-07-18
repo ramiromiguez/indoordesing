@@ -1,7 +1,51 @@
-.nav .fondo{
-    background-color: purple;
-    width: 10%;
-    height: 100%;
+.nave{
+    display:flex;
+    position:relative;
+}
+
+.nave .navme{
+    width:10%;
+    background-color: bisque;
+    padding: 30px 0;
     position: fixed;
-    margin: 0px;
+    height:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.nave .navme h2{
+    color:black;
+    text-align:center;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+    font-size:45px;
+    
+}
+
+.nave .navme ul li{
+    padding: 30px 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.nave .navme li:last-child{
+    margin-top: 190%;
+}
+
+.nave .navme li:first-child{
+    margin-top: 50%;
+}
+
+.nave .navme a{
+    text-decoration:none;
+    color:black;
+}
+
+.boton{
+    padding:10px;
+}
+
+.header{
+    margin-left:10%;
 }
